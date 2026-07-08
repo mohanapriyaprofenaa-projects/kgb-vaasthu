@@ -259,7 +259,7 @@ h6 {
   padding: 8px 26px;
   margin: 0;
   border-radius: 50px;
-  transition: 0.3s;
+  
 }
 
 .header .btn-getstarted:hover,
@@ -896,7 +896,7 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about h3 {
+/* .about h3 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
@@ -919,8 +919,161 @@ section,
   font-weight: 500;
   font-size: 28px;
   margin: 0;
+} */
+
+
+ /* .book-link{
+  text-decoration: none;
+  display: inline-block;
 }
 
+.about .book-a-table{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 28px 45px;
+  border: 3px solid var(--accent-color);
+  border-radius: 15px;
+  cursor: pointer;
+  background: #fff;
+  transition: all .4s ease;
+  animation: floatBox 3s ease-in-out infinite;
+}
+
+
+
+.about .book-a-table h3{
+  margin: 0;
+  color: var(--accent-color);
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.about .book-a-table:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(206,18,18,.35);
+}
+
+
+
+.about .book-a-table::before{
+  content:"";
+  position:absolute;
+  width:220%;
+  height:220%;
+  left:-60%;
+  top:-170%;
+  background:
+  radial-gradient(circle,
+  rgba(206,18,18,.18) 0%,
+  rgba(206,18,18,.08) 30%,
+  transparent 70%);
+  animation:waveRotate 8s linear infinite;
+}
+
+
+
+.about .book-a-table::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+  linear-gradient(
+    120deg,
+    transparent 25%,
+    rgba(206,18,18,.08) 50%,
+    transparent 75%);
+  transform:translateX(-100%);
+  animation:shine 3s infinite;
+}
+
+
+
+@keyframes floatBox{
+  0%,100%{
+      transform:translateY(0);
+  }
+  50%{
+      transform:translateY(-6px);
+  }
+}
+
+
+
+@keyframes waveRotate{
+  from{
+      transform:rotate(0deg);
+  }
+  to{
+      transform:rotate(360deg);
+  }
+}
+
+
+
+@keyframes shine{
+  100%{
+      transform:translateX(100%);
+  }
+} */
+
+
+.book-link{
+    text-decoration:none;
+    display:inline-block;
+}
+
+.about .book-a-table{
+    position:relative;
+    overflow:hidden;
+    padding:22px 45px;
+    border-radius:12px;
+    background:var(--accent-color);
+    cursor:pointer;
+    transition:.35s;
+    width: 100%;
+}
+
+.about .book-a-table h3{
+    color:#fff;
+    margin:0;
+    font-size:24px;
+    font-weight:700;
+    position:relative;
+    z-index:2;
+}
+
+.about .book-a-table::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-150%;
+    width:60%;
+    height:100%;
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.45),
+        transparent
+    );
+    transform:skewX(-25deg);
+    animation:shine 2.5s infinite;
+}
+
+.about .book-a-table:hover{
+    transform:translateY(-6px);
+    box-shadow:0 12px 28px rgba(206,18,18,.45);
+}
+
+@keyframes shine{
+    100%{
+        left:180%;
+    }
+}
 .about .fst-italic {
   color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
 }
@@ -1476,6 +1629,8 @@ section,
 .book-a-table .php-email-form input[type=number]:focus,
 .book-a-table .php-email-form input[type=date]:focus,
 .book-a-table .php-email-form input[type=time]:focus,
+.book-a-table .php-email-form input[type=tel]:focus,
+.book-a-table .php-email-form input[type=option]:focus,
 .book-a-table .php-email-form textarea:focus {
   border-color: var(--accent-color);
 }

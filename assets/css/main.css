@@ -1853,3 +1853,15 @@ section,
 .btn-whatsapp-pulse {
   text-decoration: none;
 }
+
+
+@media (max-width: 380px){
+  .serviceImg{
+    height: 200px !important;
+    width: 300px;
+  }
+  .aboutImg{
+    height: 200px !important;
+    width: 300px;
+  }
+}

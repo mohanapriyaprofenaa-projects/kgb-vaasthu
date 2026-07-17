@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>KGB Vasthu</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Yummy
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">KGB VAASTHU</h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Service</a></li>
+          <!-- <li><a href="#menu">Menu</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#gallery">Gallery</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> -->
+            <!-- <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul> -->
+          <!-- </li> -->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="contact.html#book-a-table">Book a Consult</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-center justify-content-lg-between">
+          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">A Successfull life,<br>A Peacefull home <br>starts with VAASTU</h1>
+            <p data-aos="fade-up">Do you face hurdles in life? Facing problems in your home?
+              Acquire prosperity with scientific Vaastu solutions!</p>
+            <div class="d-flex" data-aos="fade-up">
+              <a href="contact.html#book-a-table" class="btn-get-started">Booka a Consult</a>
+              <a href="https://www.youtube.com/@kgbvaasthu597"
+                class="btn-watch-video d-flex align-items-center" target="_blank"><i class="bi bi-play-circle"></i><span>Watch
+                  Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/heroimage.png" class="img-fluid animated hero-section-img" alt="" style="border-radius: 50%;">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section dark-background">
+
+      <!-- Section Title -->
+      <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <p><span>Check</span> <span class="description-title">Our Gallery</span></p>
+      </div>End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb1-home.jpg"><img src="assets/img/gallery/kgb1-home.jpg" class="img-fluid"
+                  alt=""style="height: 240px; width:300px"></a><h4 class="fw-bold text-center">Home Vaasthu</h4></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb1-businessplacevasthu1.jpg"><img src="assets/img/gallery/kgb1-businessplacevasthu1.jpg" class="img-fluid"
+                  alt=""style="height: 240px; width:300px"></a><h4 class="fw-bold text-center">Business Place Vaasthu</h4></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb1-landselectionvasthu.jpg"><img src="assets/img/gallery/kgb1-landselectionvasthu.jpg" class="img-fluid"
+                  alt="" style="height: 240px; width:300px"></a><h4 class="fw-bold text-center">Land & Plots Vaasthu</h4></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb1-business.jpg"><img src="assets/img/gallery/kgb1-business.jpg" class="img-fluid"
+                  alt=""></a><h4 class="fw-bold text-center">Financial & Office Vaasthu</h4></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb1-businessplace1.jpg"><img src="assets/img/gallery/kgb1-businessplace1.jpg" class="img-fluid"
+                  alt=""style="height: 240px; width:300px"></a><h4 class="fw-bold text-center">Industrial Vaasthu</h4></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb1-astrology.jpg"><img src="assets/img/gallery/kgb1-astrology.jpg" class="img-fluid"
+                  alt="" style="height: 240px; width:300px"></a><h4 class="fw-bold text-center">Astrology Consultation</h4></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb1-homevasthu.jpg"><img src="assets/img/gallery/kgb1-homevasthu.jpg" class="img-fluid"
+                  alt="" style="height: 240px; width:300px"></a><h4 class="fw-bold text-center">Wealth</h4></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb-godidol.jpg"><img src="assets/img/gallery/kgb-godidol.jpg" class="img-fluid"
+                  alt="" style="height: 240px; width:300px"></a><h4 class="fw-bold text-center">Prosperity</h4></div>
+                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb1-businessplacevasthu.jpg"><img src="assets/img/gallery/kgb1-businessplacevasthu.jpg" class="img-fluid"
+                  alt="" style="height: 240px; width:300px"></a><h4 class="fw-bold text-center">Business Growth</h4></div>
+                  <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                href="assets/img/gallery/kgb1-energy.jpg"><img src="assets/img/gallery/kgb1-energy.jpg" class="img-fluid" style="height: 240px; width:300px"
+                  alt=""></a><h4 class="fw-bold text-center">Peace of Mind</h4></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us<br></h2>
+        <p><span>Learn More</span> <span class="description-title">About Us</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <!-- <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100"> -->
+             <div class="col-lg-7">
+            <img src="assets/img/gallery/kgb-profile2.jpg" class="img-fluid mb-4" alt="" style="width: 800px;">
+            <!-- <div class="book-a-table">
+              <h3>Book a Consultation</h3>
+              <p>+91 9486669569</p><br>
+              <p>+91 9843821849</p>
+            </div> -->
+
+             <!-- <a href="contact.html#book-a-table" class="book-link">
+
+<div class="book-a-table">
+    <h3>Book a Consultation</h3>
+   
+  </div>
+             </a> -->
+
+                <div class="book-a-table bg-danger">
+    <a href="contact.html#book-a-table" class="text-white fw-bold text-decoration-none d-block py-3 text-center fs-2">
+        Book a Consultation
+    </a>
+</div>
+  
+       </div>
+          <div class="col-lg-5">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+             At KGB Vaastu, we believe that a successful life and a peaceful home begin with the right energy and harmonious surroundings. With a scientific and practical approach to Vaastu principles, we provide personalized guidance for homes, businesses, offices, lands, and institutions. Our mission is to help individuals and organizations create balanced spaces that promote positivity, growth, and overall well-being.
+              </p>
+             
+              <p>
+               Our expert consultation services are designed to address everyday challenges and provide simple, effective Vaastu solutions that inspire confidence and peace of mind. Whether you are planning a new home, expanding your business, purchasing land, or seeking solutions for financial and personal growth, KGB Vaastu is committed to helping you achieve prosperity, success, and a brighter future through authentic and result-oriented Vaastu guidance.
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="assets/img/sreechakra.jpg" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/@kgbvaasthu597" target="_blank" class="pulsating-play-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section light-background">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="why-box">
+              <h3>Why Choose KGB Vaasthu</h3>
+              <p>
+                At KGB Vaastu, we combine traditional Vaastu wisdom with a practical, scientific approach to create spaces that encourage harmony, prosperity, and success. Every property is unique, and so are our recommendations. Whether it's your home, office, business, or industrial space, we provide personalized Vaastu solutions that are simple to implement, result-oriented, and designed to enhance your quality of life. Our commitment to professionalism, timely guidance, and customer satisfaction has made us a trusted choice for individuals and businesses seeking positive transformation.
+              </p>
+              <div class="text-center">
+                <a href="about.html" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="row gy-4">
+
+              <div class="col-xl-4">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                   <!-- <i class="bi bi-gem"></i> -->
+                    <i class="bi bi-diagram-3"></i>
+                  <h4>Scientific & Personalized Guidance</h4>
+                  <p>Every property has its own layout and energy flow. We carefully analyze your space and provide customized Vaastu recommendations based on scientific principles and practical feasibility.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-gem"></i>
+                  <h4>Solutions for Every Space</h4>
+                  <p>From homes and apartments to offices, shops, industries, educational institutions, and land, we offer comprehensive Vaastu consultation tailored to your specific requirements and future goals.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <!-- <i class="bi bi-inboxes"></i> -->
+                 <!-- <i class="bi bi-gem"></i> -->
+                  <i class="bi bi-hand-thumbs-up"></i>
+                  <h4>Trusted Support for Positive Growth</h4>
+                  <p>Our focus is on helping clients achieve peace of mind, financial stability, business growth, and overall well-being through authentic Vaastu practices and dedicated consultation at every step.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+     <!-- Stats Section -->
+    <section id="stats" class="stats section dark-background">
+
+      <img src="assets/img/astrology.png" alt="">
+      
+
+      <div class="container position-relative">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="19" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Years of Experience</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="5000" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Vaasthu Consultations</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="3453" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Residential & commercial Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+
+     <!-- Events Section -->
+    <section id="events" class="events section">
+
+      <div class="container-fluid">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+              >
+              <!-- <video src="https://www.youtube.com/watch?v=G5oJnAvV9tA" controls height="400px" autoplay muted></video> -->
+             <iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/G5oJnAvV9tA"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+              <!-- <h3>Custom Parties</h3>
+              <div class="price align-self-start">$99</div>
+              <p class="description">
+                Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim
+                facilis veritatis id est rem repudiandae nulla expedita quas.
+              </p> -->
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end">
+               <iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/cxxhEaSGr7o"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+              
+              <!-- <h3>Private Parties</h3>
+              <div class="price align-self-start">$289</div>
+              <p class="description">
+                In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut
+                dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+              </p> -->
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+>
+
+<iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/gQ6UdtRlb2I"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+
+              <!-- <h3>Birthday Parties</h3>
+              <div class="price align-self-start">$499</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam
+                ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p> -->
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+             >
+            
+             <iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/7scdBfrw3zE"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+           
+              <!-- <h3>Wedding Parties</h3>
+              <div class="price align-self-start">$899</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam
+                ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p> -->
+            </div>
+            
+            
+              <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+             >
+            
+             <iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/PrcBdKTz3D0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+           
+              <!-- <h3>Wedding Parties</h3>
+              <div class="price align-self-start">$899</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam
+                ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p> -->
+            </div>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+             >
+            
+             <iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/54u0AdxkHek"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+           
+              <!-- <h3>Wedding Parties</h3>
+              <div class="price align-self-start">$899</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam
+                ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p> -->
+            </div>
+            
+                  <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+             >
+            
+             <iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/3777Ew6agQM"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+           
+              <!-- <h3>Wedding Parties</h3>
+              <div class="price align-self-start">$899</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam
+                ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p> -->
+            </div>
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+             >
+            
+             <iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/n1zxMfQV6bc"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+           
+              <!-- <h3>Wedding Parties</h3>
+              <div class="price align-self-start">$899</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam
+                ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p> -->
+            </div>
+
+             <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+             >
+            
+             <iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/d0qPILpB9Lg"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+           
+              <!-- <h3>Wedding Parties</h3>
+              <div class="price align-self-start">$899</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam
+                ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p> -->
+            </div>
+
+<div class="swiper-slide event-item d-flex flex-column justify-content-end"
+             >
+            
+             <iframe
+ 
+   height="400px"
+    src="https://www.youtube.com/embed/Z5ftFdRrQDU"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+           
+              <!-- <h3>Wedding Parties</h3>
+              <div class="price align-self-start">$899</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam
+                ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p> -->
+            </div>
+            <!-- End Event item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+     
+          
+
+
+
+            <!-- End Event item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+      <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>TESTIMONIALS</h2>
+        <p>What Are They <span class="description-title">Saying About Us</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>KBS Vaastu provided excellent guidance for our new home. Their recommendations were practical, easy to follow, and brought a noticeable sense of positivity and balance to our living space. Highly professional and trustworthy service.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Sanjay</h3>
+                      <h4>Tiruppur</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
+                  </div> -->
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>We consulted KBS Vaastu before starting our office construction. Their expert advice helped us plan the layout effectively, and the entire process was smooth. The team was knowledgeable, patient, and very supportive throughout.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Rajesh</h3>
+                      <h4>Erode</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
+                  </div> -->
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>I had a wonderful experience with KBS Vaastu. They carefully analyzed my property and suggested simple yet effective changes. Their expertise and friendly approach made the consultation valuable and gave us greater confidence.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Srinivasan</h3>
+                      <h4>Coimbatore</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
+                  </div> -->
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>KBS Vaastu exceeded our expectations with their detailed consultation and personalized recommendations. They explained every suggestion clearly and ensured we understood its purpose. I would confidently recommend their services to anyone seeking professional Vaastu guidance.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Karthik ram</h3>
+                      <h4>Madurai</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                          class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
+                  </div> -->
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- whatsapp div -->
+     <div>
+  <a href="https://wa.me/919486669569?text=Hello%20KGB%20Vaasthu,%0A%0AI%20visited%20your%20website%20and%20would%20like%20to%20know%20more%20about%20your%20Vaasthu%20consultation%20services.%20I%20am%20interested%20in%20guidance%20for%20my%20home,%20office,%20business,%20or%20property.%20Please%20share%20the%20consultation%20process,%20available%20services,%20and%20how%20I%20can%20book%20an%20appointment.%20Thank%20you!" class="btn-whatsapp-pulse">
+    <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+  </a>
+</div>
+
+<!-- whatsapp div end -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>Address</h4>
+            <p>No. 8, Lions Club Campus,</p>
+            <p>Senthamil Nagar, Kolumam Road,</p>
+            <p>Malayandigoundanur, Udumalai -642204</p>
+            <p>Tirupur, Tamilnadu</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact</h4>
+            <p>
+              <strong>Phone:</strong><br> <span>+91 9486669569 </span><br>
+               <strong></strong> <span>+91 9843721849 </span><br>
+               <span>+91 9843821849 </span><br>
+              <strong>Email:</strong> <span>kgbvaasthu@gmail.com</span><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat:</strong> <span>10AM - 11PM</span><br>
+              <!-- <strong>Sunday</strong>: <span>Closed</span> -->
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+             <a href="https://www.facebook.com/kgb.vaasthu.5" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/kgbvaasthu/?hl=en" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.youtube.com/@kgbvaasthu597" target="_blank"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">KGB VAASTHU</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
+          href="https://themewagon.com">ThemeWagon</a> -->
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
